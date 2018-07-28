@@ -1,0 +1,74 @@
+/* start of features 5 */
+.features-5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #e2f1f9;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    padding: 100px 0;
+    color: #141414;
+}
+
+.features-5 .card {
+    margin: 20px 0;
+    background: #ffffff;
+    
+}
+
+.features-5 h2 {
+    font-size:  2.625rem;
+    font-weight: 400;
+}
+
+.features-5 h3 {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.4;
+    opacity: 0.7;
+}
+
+.features-5 h4 {
+    font-size:  1.75rem;
+    color: #ff0000;
+}
+
+.features-5 p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.features-5 .btn {
+    padding: 16px 38px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.features-5 .btn:hover {
+    background: #0370f7;
+    border: 1px solid #0370f7;
+}
+
+.rounded-top {
+    border-top-left-radius: 0.5rem!important;
+    border-top-right-radius: 0.5rem!important;
+}
+
+@media (min-width: 992px) {
+    .features-5 {
+        height: 100vh;
+        min-height: 850px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .features-5 h3 {
+        width: 50%;
+    }
+}
+/* end of features 5 */
